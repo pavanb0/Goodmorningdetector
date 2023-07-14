@@ -71,7 +71,7 @@ def goodmorning():
             paste_image(image, 'static/assets/goodmorningimg')       
     return extract
 
-print(goodmorning())
+# print(goodmorning())
 
 if __name__ == '__main__':
 
