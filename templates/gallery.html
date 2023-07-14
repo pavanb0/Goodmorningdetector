@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image Gallery</title>
+    <style>
+        .image-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            grid-gap: 10px;
+        }
+        .image-item {
+            text-align: center;
+        }
+        .image-item img {
+            max-width: 100%;
+            max-height: 200px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Image Gallery</h1>
+    <p>
+       likely to be not a good morning images
+    </p>
+
+    <div class="image-grid">
+        {% for image_url in image_urls %}
+        <div class="image-item">
+            <img src="{{ image_url }}" alt="Image">
+        </div>
+        {% endfor %}
+    </div>
+    <p>
+        likely to be  a good morning images
+    </p>
+    <div class="image-grid">
+        {% for image_url in goodmorning_urls %}
+        <div class="image-item">
+            <img src="{{ image_url }}" alt="Image">
+        </div>
+        {% endfor %}
+    </div>
+
+</body>
+</html>
