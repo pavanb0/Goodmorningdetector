@@ -8,10 +8,10 @@ implement in other platforms such as Android ios
 </br>
 
 special mentions </br>
-using pytesseract OCR
-using Flask for api 
-using pillow for image handling
-using python as main engine 
+using pytesseract OCR</br>
+using Flask for api </br>
+using pillow for image handling</br>
+using python as main engine </br>
 
 
 
