@@ -27,3 +27,7 @@ installation<br/>
 git clone https://github.com/pavanb0/Goodmorningdetector<br/>
 cd Goodmorningdetector<br/>
 python main.py <br/>
+
+
+https://github.com/pavanb0/Goodmorningdetector/assets/96296445/9365c75f-02b0-419b-b52f-65349a5db538
+
