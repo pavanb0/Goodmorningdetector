@@ -3,7 +3,7 @@ if users' galleries have good morning images in them
 it's useful, when you use WhatsApp and your memory, is running out </br>
 TODO </br>
 convert it into api upload all images get json response </br>
-implement in other platforms such as Android ios 
+implement in other platforms such as Android ios windows
 
 </br>
 
